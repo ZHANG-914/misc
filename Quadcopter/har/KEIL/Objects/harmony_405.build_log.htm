@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ffyutt ffyutt, ffyutt, LIC=IK1EV-PMLSP-VE8HA-1J698-EGB9G-29773
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.26.2.0
+Toolchain Path:  D:\keil_\keil_main\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+D:\Desktop\har\KEIL\harmony_405.uvprojx
+Project File Date:  01/06/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\keil_\keil_main\ARM\ARMCC\Bin'
+Build target 'fs'
+compiling main.c...
+..\APP\main.c(142): warning:  #177-D: variable "tmp"  was declared but never referenced
+      char tmp[20];
+..\APP\main.c(55): warning:  #177-D: variable "Task_COM_STK"  was declared but never referenced
+  static OS_STK Task_COM_STK[TASK_COM_STK_SIZE];
+..\APP\main.c(56): warning:  #177-D: variable "Task_Angel_STK"  was declared but never referenced
+  static OS_STK Task_Angel_STK[TASK_ANGEL_STK_SIZE];
+..\APP\main.c(57): warning:  #177-D: variable "Task_PID_STK"  was declared but never referenced
+  static OS_STK Task_PID_STK[TASK_PID_STK_SIZE];
+..\APP\main.c(60): warning:  #177-D: function "Task_COM"  was declared but never referenced
+  static void Task_COM(void *p_arg);
+..\APP\main.c(61): warning:  #177-D: function "Task_Angel"  was declared but never referenced
+  static void Task_Angel(void *p_arg);
+..\APP\main.c(62): warning:  #177-D: function "Task_PID"  was declared but never referenced
+  static void Task_PID(void *p_arg);
+..\APP\main.c: 7 warnings, 0 errors
+linking...
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol MPU6050_Offset (referred from gy86.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol AHRS_Time_Init (referred from bsp.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol CalibInit (referred from main.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol Calib_Status (referred from main.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol IMUupdate (referred from main.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol MOTOR_init (referred from main.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol MOTOR_control (referred from control.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol OSQAccept (referred from control.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol lock (referred from control.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol measur (referred from control.o).
+.\Objects\harmony_405.axf: Error: L6218E: Undefined symbol senqry (referred from control.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 11 error messages.
+".\Objects\harmony_405.axf" - 11 Error(s), 7 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_fs
+  D:\keil_\keil_main\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

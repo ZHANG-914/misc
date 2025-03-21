@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "*.ejs": "html",
+        "*.html": "html",
+        "pid.h": "c",
+        "ano_dt.h": "c",
+        "includes.h": "c",
+        "ucos_ii.h": "c",
+        "i2c.h": "c",
+        "imu.h": "c",
+        "motor.h": "c",
+        "pwm.h": "c",
+        "bluetooth.h": "c",
+        "filter.h": "c"
+    }
+}
