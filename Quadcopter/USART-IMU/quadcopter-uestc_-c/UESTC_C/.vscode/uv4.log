@@ -1,0 +1,78 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+linking...
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSEventTbl multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskIdleStk multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTCBPrioTbl multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTCBTbl multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSUnMapTbl multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSCtxSwCtr multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSEventFreeList multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSIntNesting multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSLockNesting multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSPrioCur multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSPrioHighRdy multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSRdyGrp multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSRdyTbl multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSRunning multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskCtr multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSIdleCtr multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTCBCur multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTCBFreeList multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTCBHighRdy multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTCBList multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTickStepState multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskRegNextAvailID multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTime multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSEventNameGet multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSEventNameSet multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSInit multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSIntEnter multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSIntExit multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSSchedLock multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSSchedUnlock multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSStart multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTimeTick multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSVersion multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_Dummy multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_EventTaskRdy multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_EventTaskRemove multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_EventTaskWait multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_EventWaitListInit multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_MemClr multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_MemCopy multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_Sched multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_StrLen multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_TCBInit multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_TaskIdle multiply defined (by ucos_ii.o and os_core.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskCreateExt multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskNameSet multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSMutexAccept multiply defined (by ucos_ii.o and os_mutex.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSMutexCreate multiply defined (by ucos_ii.o and os_mutex.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSMutexDel multiply defined (by ucos_ii.o and os_mutex.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSMutexPend multiply defined (by ucos_ii.o and os_mutex.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSMutexPost multiply defined (by ucos_ii.o and os_mutex.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSMutexQuery multiply defined (by ucos_ii.o and os_mutex.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskChangePrio multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskCreate multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskDel multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskDelReq multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskNameGet multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskQuery multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskRegGet multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskRegGetID multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskRegSet multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskResume multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTaskSuspend multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OS_TaskReturn multiply defined (by ucos_ii.o and os_task.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTimeDly multiply defined (by ucos_ii.o and os_time.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTimeDlyHMSM multiply defined (by ucos_ii.o and os_time.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTimeDlyResume multiply defined (by ucos_ii.o and os_time.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTimeGet multiply defined (by ucos_ii.o and os_time.o).
+.\Objects\UESTC_C.axf: Error: L6200E: Symbol OSTimeSet multiply defined (by ucos_ii.o and os_time.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 69 error messages.
+".\Objects\UESTC_C.axf" - 69 Error(s), 0 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02
