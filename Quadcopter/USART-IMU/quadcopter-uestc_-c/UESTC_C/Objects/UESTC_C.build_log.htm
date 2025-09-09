@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.26.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Zhenyu Zhang, UESTC, LIC=EPPLD-8BBRI-VJ86J-UACF8-1LV2D-WGCKP
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.26.2.0
+Toolchain Path:  D:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.26.2.0
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.5.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\’≈’≈≤ª‘‡‘‡\Desktop\UESTC_C\UESTC_C.uvprojx
+Project File Date:  12/02/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling BSP.c...
+BSP\src\BSP.c(23): warning:  #1-D: last line of file ends without a newline
+  }
+BSP\src\BSP.c: 1 warning, 0 errors
+compiling main.c...
+APP\main.c(105): warning:  #177-D: variable "temp"  was declared but never referenced
+      int32_t temp;
+APP\main.c(64): warning:  #177-D: function "Task_Height"  was declared but never referenced
+  static void Task_Height(void* p_arg);
+APP\main.c: 2 warnings, 0 errors
+compiling GY86.c...
+compiling delay.c...
+compiling NVIC.c...
+FUNC\src\NVIC.c(79): warning:  #1-D: last line of file ends without a newline
+  }
+FUNC\src\NVIC.c: 1 warning, 0 errors
+compiling TIM.c...
+FUNC\src\TIM.c(25): warning:  #1-D: last line of file ends without a newline
+  }
+FUNC\src\TIM.c: 1 warning, 0 errors
+compiling IIC.c...
+compiling GPIO.c...
+compiling PID.c...
+FUNC\src\PID.c(283): warning:  #1-D: last line of file ends without a newline
+  }
+FUNC\src\PID.c: 1 warning, 0 errors
+compiling PWM.c...
+FUNC\src\PWM.c(237): warning:  #1-D: last line of file ends without a newline
+  }
+FUNC\src\PWM.c: 1 warning, 0 errors
+compiling IMU.c...
+FUNC\src\IMU.c(386): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      hx = 2 * mx * (0.5 - q2q2 - q3q3) + 2 * my * (q1q2 - q0q3) + 2 * mz * (q1q3 + q0q2);  
+FUNC\src\IMU.c(387): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      hy = 2 * mx * (q1q2 + q0q3) + 2 * my * (0.5 - q1q1 - q3q3) + 2 * mz * (q2q3 - q0q1);  
+FUNC\src\IMU.c(388): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      hz = 2 * mx * (q1q3 - q0q2) + 2 * my * (q2q3 + q0q1) + 2 * mz * (0.5 - q1q1 -q2q2);          
+FUNC\src\IMU.c(397): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      wx = 2 * bx * (0.5 - q2q2 - q3q3) + 2 * bz * (q1q3 - q0q2);  
+FUNC\src\IMU.c(399): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+      wz = 2 * bx * (q0q2 + q1q3) + 2 * bz * (0.5 - q1q1 - q2q2); 
+FUNC\src\IMU.c(438): warning:  #1-D: last line of file ends without a newline
+  }
+FUNC\src\IMU.c: 6 warnings, 0 errors
+compiling USART.c...
+compiling ANO_DT.c...
+FUNC\src\ANO_DT.c(175): warning:  #177-D: function "ANO_DT_Send_Check"  was declared but never referenced
+  static void ANO_DT_Send_Check(u8 head, u8 check_sum)
+FUNC\src\ANO_DT.c: 1 warning, 0 errors
+compiling os_flag.c...
+compiling os_mbox.c...
+compiling os_mem.c...
+compiling os_core.c...
+compiling os_q.c...
+compiling os_task.c...
+compiling os_mutex.c...
+compiling os_sem.c...
+compiling os_time.c...
+compiling os_tmr.c...
+compiling os_dbg.c...
+compiling os_cpu_c.c...
+linking...
+Program Size: Code=22634 RO-data=934 RW-data=340 ZI-data=15212  
+FromELF: creating hex file...
+".\Objects\UESTC_C.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

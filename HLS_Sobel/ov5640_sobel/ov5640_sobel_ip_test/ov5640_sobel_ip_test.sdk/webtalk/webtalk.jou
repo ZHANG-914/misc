@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Tue Apr 25 16:29:52 2023
+# Process ID: 5360
+# Current directory: D:/FPGA_Project/HLS/ov5640_sobel/ov5640_sobel_ip_test/ov5640_sobel_ip_test.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: D:/FPGA_Project/HLS/ov5640_sobel/ov5640_sobel_ip_test/ov5640_sobel_ip_test.sdk/webtalk/webtalk.log
+# Journal file: D:/FPGA_Project/HLS/ov5640_sobel/ov5640_sobel_ip_test/ov5640_sobel_ip_test.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
